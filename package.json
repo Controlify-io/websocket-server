@@ -1,0 +1,19 @@
+{
+  "name": "voicerailwebsocket",
+  "version": "1.0.0",
+  "description": "Websocket server for voiceRail",
+  "main": "server.js",
+  "dependencies": {
+    "deasync": "^0.1.12",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.15.0",
+    "sync-request": "^4.1.0",
+    "ws": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ben Jefferson"
+}
